@@ -64,7 +64,7 @@ stocks = ('AAPL', 'MSFT', 'AMZN', 'GOOGL', 'FB', 'TSLA', 'BRK.B', 'NVDA', 'JPM',
 selected_stock = st.selectbox("Select dataset for prediction", stocks)
 
 # Slider for selecting number of years for prediction
-n_years = st.slider("Years of prediction:", 1, 4)
+n_years = st.slider("Years of prediction:", 1, 5)
 period = n_years * 365
 
 # Function to load stock data
