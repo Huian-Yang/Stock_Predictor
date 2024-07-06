@@ -58,7 +58,8 @@ stocks = ('AAPL', 'MSFT', 'AMZN', 'GOOGL', 'FB', 'TSLA', 'BRK.B', 'NVDA', 'JPM',
     'FLS', 'OKE', 'CMS', 'GNRC', 'FDS', 'SWKS', 'MKTX', 'TDY', 'GPC', 'ABMD', 'HRL', 
     'UAL', 'NVR', 'MKTX', 'PH', 'AAL', 'SBNY', 'FMC', 'EXPE', 'AJG', 'NVR', 'LYV', 
     'XYL', 'EMN', 'TRIP', 'HRL', 'ZION', 'LYB', 'UAL', 'KMX', 'WRK', 'NRG', 'SIVB', 
-    'CF', 'APA', 'CMS', 'XYL', 'PKG', 'RCL', 'LNT', 'SEE', 'NRG', 'FFIV', 'CDAY')
+    'CF', 'APA', 'CMS', 'XYL', 'PKG', 'RCL', 'LNT', 'SEE', 'NRG', 'FFIV', 'CDAY', 'PLTR',
+    'VOO', 'SCHG', 'LUNR', "RKLB")
 
 selected_stock = st.selectbox("Select dataset for prediction", stocks)
 
