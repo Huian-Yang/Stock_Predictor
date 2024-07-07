@@ -2,12 +2,36 @@
 
 This Stock Prediction App is a web-based application built using Streamlit that allows users to predict future stock prices using historical data and the Prophet forecasting model.
 
+## Before Anything
+
+Please do all of the cloning and running of the code inside a virtual environment.
+
+### Setting up a Virtual Environment
+
+1. **Create a Virtual Environment**:
+   
+    ```bash
+    python -m venv venv
+    ```
+
+2. **Activate the Virtual Environment**:
+
+    - On Windows:
+        ```bash
+        venv\Scripts\activate
+        ```
+    - On macOS and Linux:
+        ```bash
+        source venv/bin/activate
+        ```
+
 ## Features
 
 - **Stock Ticker Selection**: Choose from a wide range of stock tickers to analyze.
 - **Customizable Prediction Period**: Select the number of years for which you want to predict stock prices.
 - **Data Visualization**: Visualize the raw stock data and the forecasted prices.
 - **Forecast Components**: Examine different components of the forecast to understand the trends, seasonality, and other factors affecting stock prices.
+
 
 ## Installation
 
