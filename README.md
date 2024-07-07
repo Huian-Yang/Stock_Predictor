@@ -49,16 +49,7 @@ Please do all of the cloning and running of the code inside a virtual environmen
     Ensure you have Python installed. Then, install the required packages using pip:
 
     ```bash
-    pip install -r requirements.txt
-    ```
-
-    The `requirements.txt` should include:
-
-    ```plaintext
-    streamlit
-    yfinance
-    prophet
-    plotly
+    pip install streamlit yfinance prophet plotly
     ```
 
     note: Inside the virtual enviroment, locate the prophet libaray and go into the forecaster.py file and update np.float_ to np.float64 for it to work. 
