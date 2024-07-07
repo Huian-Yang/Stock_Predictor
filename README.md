@@ -2,6 +2,8 @@
 
 This Stock Prediction App is a web-based application built using Streamlit that allows users to predict future stock prices using historical data and the Prophet forecasting model.
 
+[Deployed Website](https://huian-yang-stock-predictor-main-dntgnw.streamlit.app/)
+
 ## Before Anything
 
 Please do all of the cloning and running of the code inside a virtual environment.
@@ -59,6 +61,8 @@ Please do all of the cloning and running of the code inside a virtual environmen
     plotly
     ```
 
+    note: Inside the virtual enviroment, locate the prophet libaray and go into the forecaster.py file and update np.float_ to np.float64 for it to work. 
+
 3. **Run the Application**:
 
     ```bash
@@ -89,3 +93,6 @@ Please do all of the cloning and running of the code inside a virtual environmen
 
 - `app.py`: The main application file containing the Streamlit app code.
 - `requirements.txt`: A list of Python packages required to run the app.
+
+## Final Notes
+   Following these steps will allow you to run this locally but if you want to deploy it, it will take extra work. 
