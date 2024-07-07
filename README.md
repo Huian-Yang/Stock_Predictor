@@ -57,7 +57,7 @@ Please do all of the cloning and running of the code inside a virtual environmen
 3. **Run the Application**:
 
     ```bash
-    streamlit run app.py
+    streamlit run main.py
     ```
 
 ## Usage
@@ -82,8 +82,8 @@ Please do all of the cloning and running of the code inside a virtual environmen
 
 ## File Structure
 
-- `app.py`: The main application file containing the Streamlit app code.
-- `requirements.txt`: A list of Python packages required to run the app.
+- `main.py`: The main application file containing the Streamlit app code.
+- `requirements.txt`: A list of Python packages required to deploy app
 
 ## Final Notes
    Following these steps will allow you to run this locally but if you want to deploy it, it will take extra work. 
